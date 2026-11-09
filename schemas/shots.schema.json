@@ -1,0 +1,53 @@
+{
+  "title": "shots.csv",
+  "type": "object",
+  "required": [
+    "id",
+    "story_segment",
+    "scene_id",
+    "duration",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "story_segment": {
+      "type": "string"
+    },
+    "scene_id": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "duration": {
+      "type": "number",
+      "minimum": 0.1
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "todo",
+        "image_ready",
+        "video_running",
+        "video_ok",
+        "conditional",
+        "retake",
+        "final"
+      ]
+    },
+    "long_take": {
+      "type": "boolean"
+    },
+    "vo_ids": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "string"
+    },
+    "static": {
+      "type": "boolean"
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true
+}

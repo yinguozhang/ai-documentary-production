@@ -1,0 +1,4 @@
+[
+  {"id":"failed","model":"MiniMax-H3","duration":5,"status":"failed","cost_cny":2.5},
+  {"id":"ok","model":"MiniMax-H3","duration":5,"status":"succeeded"}
+]

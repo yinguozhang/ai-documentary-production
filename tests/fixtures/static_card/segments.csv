@@ -1,0 +1,3 @@
+generation_id,scene_id,cut_order,shot_id,start,end,duration,keyframe,static,notes
+CARD,1,1,0-1,0,2,2,首帧/0-1_card.png,yes,片头静帧
+S01,1,1,1-1,2,7,5,首帧/1-1_first.png,no,

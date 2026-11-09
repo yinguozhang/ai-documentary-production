@@ -1,0 +1,30 @@
+# 项目卡模板：复制到实际项目根目录后填写
+title: ""
+subtitle: ""
+profile: short          # short / standard / custom
+model_routing: hybrid   # hybrid / gpt_only / codex_deepseek
+image_mode: human       # human / agent
+target_duration_sec: 30 # 30s、3min 只是示例，按需求改
+shot_target: 12
+segment_target: 2
+aspect: "16:9"
+resolution: "1920x1080"
+fps: 30
+language: "zh-CN"
+audience: ""
+platform: ""
+deadline: ""
+budget_cny: 0
+
+providers:
+  image: user_gpt
+  video: minimax_h3
+  voice: capcut_tts
+  music: local_midi_fluidsynth
+  edit: capcut
+  qc: ffmpeg
+
+rights:
+  historical_photos: ""
+  music: ""
+  ai_disclosure: true

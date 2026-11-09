@@ -1,0 +1,31 @@
+{
+  "title": "vo.csv",
+  "type": "object",
+  "required": [
+    "vo_id",
+    "start",
+    "end",
+    "text"
+  ],
+  "properties": {
+    "vo_id": {
+      "type": "string"
+    },
+    "start": {
+      "type": "number",
+      "minimum": 0
+    },
+    "end": {
+      "type": "number",
+      "minimum": 0
+    },
+    "text": {
+      "type": "string"
+    },
+    "shot_ids": {
+      "type": "string"
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true
+}

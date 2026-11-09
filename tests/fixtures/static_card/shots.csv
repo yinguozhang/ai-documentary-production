@@ -1,0 +1,3 @@
+id,story_segment,scene_id,duration,status,long_take,vo_ids,first_frame,static,notes
+0-1,0,1,2,todo,no,,首帧/0-1_card.png,yes,片头标题卡
+1-1,1,1,5,todo,no,V01,首帧/1-1_first.png,no,

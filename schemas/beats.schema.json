@@ -1,0 +1,33 @@
+{
+  "title": "beats.csv",
+  "type": "object",
+  "required": [
+    "beat_id",
+    "shot_id"
+  ],
+  "properties": {
+    "beat_id": {
+      "type": "string"
+    },
+    "story_segment": {
+      "type": "string"
+    },
+    "kind": {
+      "type": "string"
+    },
+    "shot_id": {
+      "type": "string"
+    },
+    "vo_id": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true
+}

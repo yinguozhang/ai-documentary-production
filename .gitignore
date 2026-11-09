@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+tests/project/
+tests/agent/
+tests/h3_package/
+tests/h3_static/
+tests/*.srt

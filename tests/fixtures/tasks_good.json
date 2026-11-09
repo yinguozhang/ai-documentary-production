@@ -1,0 +1,12 @@
+[
+  {
+    "generation_id": "S01",
+    "provider": "minimax_h3",
+    "model": "MiniMax-H3",
+    "resolution": "768P",
+    "duration": 9,
+    "status": "todo",
+    "prompt": "h3_package/S01/prompt.md",
+    "first_frames": ["首帧/1-1_first.png", "首帧/1-2_first.png"]
+  }
+]

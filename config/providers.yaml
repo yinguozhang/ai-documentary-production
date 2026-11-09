@@ -1,0 +1,35 @@
+image:
+  provider: user_gpt
+  mode: human
+  output: first_frame.png
+  note: "AI 不调用图片 API"
+
+video:
+  provider: minimax_h3
+  base_url: https://api.minimax.cn
+  api_key_env: MINIMAX_API_KEY
+  model: MiniMax-H3
+  fallback_model: MiniMax-H3-Max
+  resolution: 768P
+  duration: "4-15"
+  takes: 1
+  fallback: minimax_h3_max
+
+voice:
+  provider: capcut_tts
+  output: vo.wav
+  sample_rate: 48000
+
+music:
+  provider: local_midi_fluidsynth
+  output: music_sections/
+  sample_rate: 48000
+  bit_depth: 24
+
+edit:
+  provider: capcut
+  resolution: "1920x1080"
+  fps: 30
+
+qc:
+  provider: ffmpeg

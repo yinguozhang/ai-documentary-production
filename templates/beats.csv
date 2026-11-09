@@ -1,0 +1,6 @@
+beat_id,story_segment,kind,shot_id,vo_id,text,notes
+B01,1,action,1-1,V01,少年在石阶上拆九连环,
+B02,1,action,1-2,V01,手指拨动环扣,
+B03,1,action,1-3,,九连环停在半空,
+B04,1,action,1-4,V02,九连环扣合,
+B05,1,ending,1-5,,水面轻晃,

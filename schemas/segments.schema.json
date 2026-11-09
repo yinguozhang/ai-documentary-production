@@ -1,0 +1,53 @@
+{
+  "title": "segments.csv",
+  "type": "object",
+  "required": [
+    "generation_id",
+    "scene_id",
+    "shot_id",
+    "cut_order",
+    "start",
+    "end",
+    "duration",
+    "keyframe"
+  ],
+  "properties": {
+    "generation_id": {
+      "type": "string"
+    },
+    "scene_id": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "cut_order": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "shot_id": {
+      "type": "string"
+    },
+    "start": {
+      "type": "number",
+      "minimum": 0
+    },
+    "end": {
+      "type": "number",
+      "minimum": 0
+    },
+    "duration": {
+      "type": "number",
+      "minimum": 0.1
+    },
+    "keyframe": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "string"
+    },
+    "static": {
+      "type": "boolean"
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true
+}
